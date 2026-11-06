@@ -648,6 +648,64 @@
             </div>
         </div>
     </footer>
+      <!-- ================= AI Chatbot Widget ================= -->
+  <div class="chatbot-wrapper" id="chatbotWrapper">
+    <!-- Chatbot Toggle Button -->
+    <button class="chatbot-trigger" id="chatbotTrigger" aria-label="Open AI Tour Assistant">
+      <span class="chat-icon-open">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+        </svg>
+      </span>
+      <span class="chat-icon-close">&times;</span>
+      <span class="chat-trigger-pulse"></span>
+    </button>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot-window" id="chatbotWindow" aria-hidden="true">
+      <!-- Header -->
+      <div class="chat-header">
+        <div class="chat-avatar">🐅</div>
+        <div class="chat-header-info">
+          <div class="chat-title-row">
+            <h4>DeltaBot AI</h4>
+            <span class="online-indicator"></span>
+          </div>
+          <p class="chat-subtitle">Sundarban Safari Guide & Assistant</p>
+        </div>
+        <button class="chat-minimize" id="chatMinimize" aria-label="Minimize Chat">&minus;</button>
+      </div>
+
+      <!-- Quick Suggestion Chips -->
+      <div class="chat-chips" id="chatChips">
+        <button class="chip-btn" data-query="Best time to visit?">🗓️ Best Season?</button>
+        <button class="chip-btn" data-query="What are the tiger sighting chances?">🐅 Tiger Chances?</button>
+        <button class="chip-btn" data-query="Do we need forest permits?">🛡️ Forest Permits?</button>
+        <button class="chip-btn" data-query="Tell me about Luxury Houseboat">🛥️ Luxury Houseboat?</button>
+        <button class="chip-btn" data-query="What food is served?">🍲 Food on Boat?</button>
+      </div>
+
+      <!-- Messages Stream -->
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-bubble bot-bubble">
+          <p>Namaskar! 🙏 I'm <strong>DeltaBot</strong>, your Sundarban AI naturalist. Ask me anything about tour packages, tiger sightings, forest permits, food, or Kolkata transfers!</p>
+          <span class="msg-time">Just now</span>
+        </div>
+      </div>
+
+      <!-- Input Area -->
+      <form class="chat-input-bar" id="chatForm">
+        <input type="text" id="chatInput" placeholder="Ask about safaris, permits, prices..." autocomplete="off" required />
+        <button type="submit" class="chat-send-btn" aria-label="Send message">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
 
     <script src="app.js"></script>
 </body>
