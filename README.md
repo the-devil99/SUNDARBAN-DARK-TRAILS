@@ -1,6 +1,6 @@
 # SUNDARBAN-DARK-TRAILS
 
-🌿 Sundarban Tide Trails — Web Application
+🌿 Sundarban Dark-Trails — Web Application
 A responsive, high-performance web application designed for eco-tourism operators, luxury houseboat charters, and wildlife safari bookings in the Sundarbans Mangrove Delta (West Bengal, India).
 
 Built with semantic HTML5, modern CSS3 variables, and vanilla JavaScript (ES6+). Zero external framework dependencies.
