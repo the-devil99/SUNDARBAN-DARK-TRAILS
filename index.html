@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sundarban Tide Trails — Luxury Mangrove Safaris & Expeditions</title>
+    <meta name="description"
+        content="Authorized Sundarban boat safaris, luxury houseboats, and tiger trail expeditions with forest department permits and certified wildlife naturalists." />
+
+    <meta property="og:title" content="Sundarban Tide Trails — Luxury Mangrove Safaris" />
+    <meta property="og:description"
+        content="Explore UNESCO World Heritage mangroves, Royal Bengal Tigers, and canopy watchtowers." />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <span>🌿 Winter & Spring Tiger Sighting Season is Live (Oct – Apr)</span>
+            <div class="top-bar-links">
+                <a href="tel:+916294792926">📞 +91 62947 92926</a>
+                <span>•</span>
+                <span>Forest Dept. License: WB/WL/SND-2024-09</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg>
+                </div>
+                <div class="logo-text">Sundarban<strong> Dark-Trails</strong></div>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">About Delta</a>
+                <a href="#packages" class="nav-link">5 Tour Packages</a>
+                <a href="#wildlife" class="nav-link">Wildlife</a>
+                <a href="#destinations" class="nav-link">Watchtowers</a>
+                <a href="#calculator" class="nav-link">Price Calculator</a>
+                <a href="#reviews" class="nav-link">Guest Reviews</a>
+                <button class="btn btn-primary nav-cta" id="openBookingBtn">Book Safari</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                UNESCO World Heritage & Biosphere Reserve
+            </div>
+            <h1 class="hero-title">Experience the Realm of the <em>Royal Bengal Tiger</em></h1>
+            <p class="hero-subtitle">
+                Glide through mystical mangrove creeks on government-authorized boats, private luxury houseboats, and
+                eco-resort trails led by licensed village naturalists.
+            </p>
+
+            <!-- Quick Search Bar -->
+            <form class="quick-booking-card" id="quickSearchForm">
+                <div class="qb-field">
+                    <label for="qsPackage">Selected Tour</label>
+                    <select id="qsPackage">
+                        <option value="Day River Cruise">1-Day Mangrove Cruise</option>
+                        <option value="Mangrove Eco-Escape" selected>2D/1N Mangrove Eco-Escape</option>
+                        <option value="Tiger Trail Expedition">3D/2N Tiger Trail Expedition</option>
+                        <option value="Luxury Houseboat Charter">2D/1N Luxury Private Houseboat</option>
+                        <option value="Photography & Birding Safari">4D/3N Birding & Photography</option>
+                    </select>
+                </div>
+
+                <div class="qb-field">
+                    <label for="qsDate">Safari Date</label>
+                    <input type="date" id="qsDate" required />
+                </div>
+
+                <div class="qb-field">
+                    <label for="qsGuests">Guests</label>
+                    <input type="number" id="qsGuests" min="1" max="30" value="2" />
+                </div>
+
+                <button type="submit" class="btn btn-primary qb-submit">
+                    <span>Search Availability</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Trust Highlights -->
+    <section class="trust-bar" id="about">
+        <div class="container trust-grid">
+            <div class="trust-item">
+                <div class="trust-icon">🛡️</div>
+                <div>
+                    <h4>Forest Authorized</h4>
+                    <p>Official permits & boat safety licenses</p>
+                </div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🐅</div>
+                <div>
+                    <h4>100+ Resident Tigers</h4>
+                    <p>Core zone watchtowers & river crossings</p>
+                </div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🍲</div>
+                <div>
+                    <h4>Fresh Delta Gastronomy</h4>
+                    <p>Hilsa, Bhetki, Chingri & pure organic honey</p>
+                </div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">⭐</div>
+                <div>
+                    <h4>4.92 / 5.0 Rating</h4>
+                    <p>From 2,400+ satisfied eco-explorers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wildlife Sighting Track -->
+    <section class="wildlife-strip" id="wildlife">
+        <div class="container">
+            <div class="strip-header">
+                <span class="section-tag">Biodiversity Spotlight</span>
+                <h3>What You Can Spot Along the Tidal Creeks</h3>
+            </div>
+            <div class="wildlife-cards">
+                <div class="wildlife-badge">🐅 Royal Bengal Tiger</div>
+                <div class="wildlife-badge">🐊 Estuarine Saltwater Crocodile</div>
+                <div class="wildlife-badge">🐬 Irrawaddy & Gangetic River Dolphin</div>
+                <div class="wildlife-badge">🦌 Spotted Chital Deer</div>
+                <div class="wildlife-badge">🦎 Asian Water Monitor Lizard</div>
+                <div class="wildlife-badge">🦅 8 Species of Delta Kingfishers</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Packages (5 Options) -->
+    <section class="section packages-section" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Authentic Expeditions</span>
+                <h2 class="section-heading">Curated Sundarban Safari Packages</h2>
+                <p class="section-sub">Transparent pricing with zero hidden charges. Includes permits, meals, tea, local
+                    guides, and jetty transfers.</p>
+
+                <!-- Category Tabs -->
+                <div class="package-tabs">
+                    <button class="tab-btn active" data-filter="all">All Packages (5)</button>
+                    <button class="tab-btn" data-filter="day">Day Safari</button>
+                    <button class="tab-btn" data-filter="overnight">Overnight Escapes</button>
+                    <button class="tab-btn" data-filter="premium">Luxury & Specialist</button>
+                </div>
+            </div>
+
+            <div class="packages-grid" id="packagesGrid">
+
+                <!-- Package 1: Day Safari -->
+                <article class="card package-card" data-category="day">
+                    <div class="card-pill">Popular Day Tour</div>
+                    <div class="pkg-header">
+                        <h3>Day River Cruise</h3>
+                        <span class="duration">⏱ 1 Full Day (06:30 AM – 07:00 PM)</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">2,499</span>
+                        <span class="unit">/ person</span>
+                    </div>
+                    <p class="pkg-desc">Ideal for short weekend trips from Kolkata wanting watchtower panoramic vistas
+                        and fresh onboard dining.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Sajnekhali & Sudhanyakhali Watchtowers</li>
+                        <li>✓ Bengali breakfast, hot lunch & evening snacks on boat</li>
+                        <li>✓ Government tourist permit & licensed local naturalist</li>
+                        <li>✓ Optional AC car/bus pickup from Kolkata</li>
+                    </ul>
+                    <button class="btn btn-outline select-pkg-btn" data-plan="Day River Cruise" data-price="2499">Select
+                        Package</button>
+                </article>
+
+                <!-- Package 2: 2D/1N Eco Escape -->
+                <article class="card package-card featured" data-category="overnight">
+                    <div class="card-pill popular">Top Bestseller</div>
+                    <div class="pkg-header">
+                        <h3>Mangrove Eco-Escape</h3>
+                        <span class="duration">⏱ 2 Days / 1 Night</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">5,999</span>
+                        <span class="unit">/ person</span>
+                    </div>
+                    <p class="pkg-desc">The flagship Sundarban journey. Balanced between river safari, forest
+                        watchtowers, and local village culture.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Eco-cottage stay with private balcony & garden</li>
+                        <li>✓ Dobanki Canopy Walk (20-ft elevated aerial path)</li>
+                        <li>✓ Evening tribal Jhumur dance & Baul folk performance</li>
+                        <li>✓ 4 buffet meals with fresh river Bhetki and Golda Prawn</li>
+                        <li>✓ Sunset cruise through narrow creeks of Pirkhali</li>
+                    </ul>
+                    <button class="btn btn-primary select-pkg-btn" data-plan="Mangrove Eco-Escape"
+                        data-price="5999">Select Package</button>
+                </article>
+
+                <!-- Package 3: 3D/2N Tiger Trail -->
+                <article class="card package-card" data-category="overnight">
+                    <div class="card-pill">Deep Core Zone</div>
+                    <div class="pkg-header">
+                        <h3>Tiger Trail Expedition</h3>
+                        <span class="duration">⏱ 3 Days / 2 Nights</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">9,499</span>
+                        <span class="unit">/ person</span>
+                    </div>
+                    <p class="pkg-desc">Venture into deeper estuaries with increased tiger and crocodile activity away
+                        from common tourist tracks.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Deep core entries: Netidhopani ruins & Bonnie Camp</li>
+                        <li>✓ Burirdabri mud walk and cage trail on Bangladesh border</li>
+                        <li>✓ 2 nights at riverfront boutique eco-resort</li>
+                        <li>✓ Honey gatherers (Mawali) interactive cultural session</li>
+                        <li>✓ Bonfire, barbecue dinner, and night safari stargazing</li>
+                    </ul>
+                    <button class="btn btn-outline select-pkg-btn" data-plan="Tiger Trail Expedition"
+                        data-price="9499">Select Package</button>
+                </article>
+
+                <!-- Package 4 (NEW): Luxury Houseboat Charter -->
+                <article class="card package-card premium" data-category="premium">
+                    <div class="card-pill luxury">VIP Experience</div>
+                    <div class="pkg-header">
+                        <h3>Luxury Houseboat Charter</h3>
+                        <span class="duration">⏱ 2 Days / 1 Night (Private Vessel)</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">16,500</span>
+                        <span class="unit">/ person (Min 4)</span>
+                    </div>
+                    <p class="pkg-desc">Sleep on the water in a handcrafted wooden cruiser with glass-paneled AC
+                        staterooms, sundeck, and private chef.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ 100% Private cruise vessel for your family/group</li>
+                        <li>✓ En-suite AC cabins, upper sundeck lounge & telescope</li>
+                        <li>✓ Dedicated master chef cooking customized gourmet menu</li>
+                        <li>✓ Private motorized dinghy for silent creek navigation</li>
+                        <li>✓ Complimentary Kolkata doorstep pick-and-drop in Innova</li>
+                    </ul>
+                    <button class="btn btn-primary select-pkg-btn" data-plan="Luxury Houseboat Charter"
+                        data-price="16500">Select VIP Charter</button>
+                </article>
+
+                <!-- Package 5 (NEW): Birding & Photography Safari -->
+                <article class="card package-card premium" data-category="premium">
+                    <div class="card-pill specialist">Wildlife Enthusiasts</div>
+                    <div class="pkg-header">
+                        <h3>Birding & Photography Special</h3>
+                        <span class="duration">⏱ 4 Days / 3 Nights</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">14,999</span>
+                        <span class="unit">/ person</span>
+                    </div>
+                    <p class="pkg-desc">Designed for wildlife photographers and birders. Silent battery-assist boats for
+                        low-angle morning shots.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Led by state-recognized veteran wildlife photographer</li>
+                        <li>✓ Early 05:30 AM silent departures for golden hour light</li>
+                        <li>✓ Specialised hide visits around Sajnekhali & Pakhiralay</li>
+                        <li>✓ High-probability tracking of Goliath Heron & Masked Finfoot</li>
+                        <li>✓ Daily evening photo critique and editing masterclass</li>
+                    </ul>
+                    <button class="btn btn-outline select-pkg-btn" data-plan="Photography & Birding Safari"
+                        data-price="14999">Select Photo Tour</button>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Watchtowers & Destinations -->
+    <section class="section dest-section" id="destinations">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Key Delta Landmarks</span>
+                <h2 class="section-heading">Strategic Watchtowers & Stops</h2>
+                <p class="section-sub">Protected platforms engineered for panoramic wildlife viewing over freshwater
+                    watering holes.</p>
+            </div>
+
+            <div class="dest-grid">
+                <div class="dest-box">
+                    <span class="dest-num">01</span>
+                    <h3>Dobanki Canopy Walk</h3>
+                    <p>A half-kilometer elevated wire-mesh walk suspended 20 feet above ground. Walk freely while deer
+                        and tigers roam below.</p>
+                </div>
+                <div class="dest-box">
+                    <span class="dest-num">02</span>
+                    <h3>Sudhanyakhali Watchtower</h3>
+                    <p>The highest recorded statistical probability for spotting the Royal Bengal Tiger drinking at the
+                        sweetwater pond.</p>
+                </div>
+                <div class="dest-box">
+                    <span class="dest-num">03</span>
+                    <h3>Netidhopani Historic Ruins</h3>
+                    <p>Centuries-old mythological Shiva temple ruins associated with the legend of Behula and Lakhindar
+                        deep in the core zone.</p>
+                </div>
+                <div class="dest-box">
+                    <span class="dest-num">04</span>
+                    <h3>Bonnie Camp Estuary</h3>
+                    <p>The tallest watchtower in Sundarbans (50 ft). Overlooks vast tidal mudflats and the meeting point
+                        of open rivers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Cost Estimator -->
+    <section class="section calc-section" id="calculator">
+        <div class="container">
+            <div class="calc-wrapper">
+                <div class="calc-copy">
+                    <span class="section-tag">Transparent Quotes</span>
+                    <h2>Instant Safari Cost Calculator</h2>
+                    <p>Calculate your estimated tour cost instantly with realistic Kolkata transport, dietary upgrades,
+                        and camera permissions.</p>
+                    <div class="calc-guarantee">
+                        <span>🛡️</span>
+                        <small>Includes government forest permit fees & travel insurance.</small>
+                    </div>
+                </div>
+
+                <div class="calc-card">
+                    <div class="form-item">
+                        <label for="calcPlan">Selected Expedition</label>
+                        <select id="calcPlan">
+                            <option value="2499">1-Day River Cruise (₹2,499/person)</option>
+                            <option value="5999" selected>2D/1N Mangrove Eco-Escape (₹5,999/person)</option>
+                            <option value="9499">3D/2N Tiger Trail Expedition (₹9,499/person)</option>
+                            <option value="16500">2D/1N Luxury Houseboat Charter (₹16,500/person)</option>
+                            <option value="14999">4D/3N Birding & Photography Special (₹14,999/person)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-item">
+                        <div class="range-header">
+                            <label for="calcGuests">Travelers</label>
+                            <span class="range-pill"><strong id="guestCountDisplay">2</strong> Guests</span>
+                        </div>
+                        <input type="range" id="calcGuests" min="1" max="15" value="2" />
+                    </div>
+
+                    <div class="form-item">
+                        <label for="calcPickup">Transfer from Kolkata</label>
+                        <select id="calcPickup">
+                            <option value="0">Direct at Godkhali Ferry Ghat (Own Transport)</option>
+                            <option value="1200" selected>AC Shared Coach from Science City (+₹1,200/person)</option>
+                            <option value="4800">Private AC Sedan Doorstep Pickup (+₹4,800 Flat)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-item">
+                        <label>Optional Safari Add-Ons</label>
+                        <div class="checkbox-group">
+                            <label class="check-container">
+                                <input type="checkbox" id="addCrabFeast" value="500" />
+                                <span>Special Crab & Jumbo Prawn Feast (+₹500/p)</span>
+                            </label>
+                            <label class="check-container">
+                                <input type="checkbox" id="addCamPermit" value="1000" />
+                                <span>Professional Telephoto Lens Permit (+₹1,000 flat)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="calc-footer">
+                        <div class="calc-price-block">
+                            <span>Estimated Package Total:</span>
+                            <div class="calc-price" id="totalPriceDisplay">₹14,398</div>
+                        </div>
+                        <button class="btn btn-primary" id="calcBookBtn">Proceed With Estimate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guest Testimonials -->
+    <section class="section reviews-section" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Traveler Stories</span>
+                <h2 class="section-heading">Verified Guest Experiences</h2>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"We saw a tigress swimming across the creek near Sudhanyakhali! The
+                        naturalist guide Subhas was incredible at reading pugmarks and bird alarm calls. Flawless
+                        Bengali meals on the boat."</p>
+                    <div class="reviewer-meta">
+                        <strong>Debashis & Sharmila Roy</strong>
+                        <span>Kolkata • 2D/1N Mangrove Escape</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"The Private Houseboat Charter is worth every rupee. Super clean AC cabins,
+                        warm tea at sunrise, and watching dolphins jump by while dining on the sundeck was pure magic."
+                    </p>
+                    <div class="reviewer-meta">
+                        <strong>Vikramaditya Mehta</strong>
+                        <span>Mumbai • Luxury Houseboat Charter</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"As a wildlife photographer, the 4-day birding package exceeded expectations.
+                        Got clean shots of the Black-capped Kingfisher and Mangrove Pitta in pristine morning light."
+                    </p>
+                    <div class="reviewer-meta">
+                        <strong>Dr. Sarah Jenkins</strong>
+                        <span>London, UK • Birding & Photography Safari</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section faq-section" id="faqs">
+        <div class="container max-w-md">
+            <div class="section-header">
+                <span class="section-tag">Travel Advisory</span>
+                <h2 class="section-heading">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item active">
+                    <button class="accordion-header">
+                        <span>What documents are needed for forest entry permits?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Indian citizens need any Government Photo ID (Aadhaar, Passport, Voter ID, or Driving
+                            License). Foreign nationals require their original Passport and valid Indian Visa. Our team
+                            processes everything at the Sajnekhali Range office.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Is mobile network connectivity available in the forest?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Airtel and Jio have good coverage near Godkhali, Gosaba, and Pakhiralay. Deeper inside the
+                            core reserve (Dobanki, Netidhopani), signal drops off, providing a peaceful digital detox.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>What should we pack for the boat safari?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Earthy-toned cotton clothes (khaki, green, beige), comfortable shoes, binoculars, sun hat, UV
+                            sunglasses, winter light jacket (for morning cruises), and mosquito repellent.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Can senior citizens comfortably participate?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <p>Yes. All our boats feature stable railings, seating with cushions, clean western-style
+                            restrooms, and easy boarding gangways at all authorized jetties.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div class="modal" id="bookingModal" aria-hidden="true">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div>
+                    <h3>Reserve Your Sundarban Safari</h3>
+                    <p class="modal-sub">Guaranteed instant quote & WhatsApp confirmation.</p>
+                </div>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+
+            <form class="modal-form" id="bookingForm">
+                <div class="form-group">
+                    <label for="bookName">Lead Traveler Name</label>
+                    <input type="text" id="bookName" placeholder="e.g. Anirban Das" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="bookPhone">WhatsApp / Mobile Number</label>
+                    <input type="tel" id="bookPhone" placeholder="+91 9733636547" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="bookPackage">Preferred Tour</label>
+                    <select id="bookPackage">
+                        <option value="Day River Cruise">1-Day River Cruise (₹2,499)</option>
+                        <option value="Mangrove Eco-Escape" selected>2D/1N Mangrove Eco-Escape (₹5,999)</option>
+                        <option value="Tiger Trail Expedition">3D/2N Tiger Trail Expedition (₹9,499)</option>
+                        <option value="Luxury Houseboat Charter">2D/1N Luxury Houseboat Charter (₹16,500)</option>
+                        <option value="Photography & Birding Safari">4D/3N Birding & Photography Special (₹14,999)
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-row-2">
+                    <div class="form-group">
+                        <label for="bookDate">Departure Date</label>
+                        <input type="date" id="bookDate" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="bookCount">Persons</label>
+                        <input type="number" id="bookCount" min="1" max="35" value="2" required />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookNotes">Pickup / Dietary Notes (Optional)</label>
+                    <input type="text" id="bookNotes" placeholder="e.g. Kolkata pickup needed, Vegetarian food" />
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                    <span>Confirm Booking via WhatsApp</span>
+                    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Assistance Button -->
+    <a href="https://wa.me/919733636547?text=Hello%20Sundarban%20Trails,%20I%20am%20interested%20in%20a%20safari%20booking"
+        target="_blank" class="float-wa" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+            <path
+                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.04 19.83C10.61 19.83 9.22 19.46 8.01 18.77L7.5 18.45L4.5 19.5L5.55 16.5L5.23 15.99C4.54 14.78 4.17 13.39 4.17 11.96C4.17 7.72 7.8 4.09 12.04 4.09C14.02 4.09 15.91 4.81 17.31 6.21C18.71 7.61 19.43 9.5 19.43 11.48C19.43 15.72 15.8 19.35 11.56 19.35H12Z" />
+        <span>WhatsApp Desk</span>
+    </a>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-col-main">
+                <a href="#" class="brand-logo footer-logo">
+                    <div class="logo-icon">🌿</div>
+                    <div class="logo-text">Sundarban<strong>Trails</strong></div>
+                </a>
+                <p class="footer-desc">Sustainable delta tourism, zero-carbon silent battery boats, and community-led
+                    tiger conservation programs in the Indian Sundarbans.</p>
+                <div class="license-tag">Forest Dept. Authorized Operator ID: WB-FOR-2024-SUND-44</div>
+            </div>
+
+            <div>
+                <h4>Expeditions</h4>
+                <ul class="footer-links">
+                    <li><a href="#packages">1-Day River Cruise</a></li>
+                    <li><a href="#packages">2D/1N Mangrove Escape</a></li>
+                    <li><a href="#packages">3D/2N Tiger Trail</a></li>
+                    <li><a href="#packages">Luxury Houseboat Charter</a></li>
+                    <li><a href="#packages">Birding & Photography Special</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Key Watchtowers</h4>
+                <ul class="footer-links">
+                    <li><a href="#destinations">Sajnekhali Sanctuary</a></li>
+                    <li><a href="#destinations">Dobanki Canopy Walk</a></li>
+                    <li><a href="#destinations">Sudhanyakhali Tower</a></li>
+                    <li><a href="#destinations">Netidhopani Ruins</a></li>
+                    <li><a href="#destinations">Bonnie Camp</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Contact & Jetty</h4>
+                <p><strong>Ferry Terminal:</strong> Godkhali Jetty #2, Gosaba</p>
+                <p><strong>Kolkata Office:</strong> DN Block, Sector V, Salt Lake, Kolkata 700091</p>
+                <p><strong>Phone:</strong> +91 97336 36547 / 033 2456 7890</p>
+                <p><strong>Email:</strong> info@sundarbantrails.in</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container fb-content">
+                <p>© 2026 Sundarban Tide Trails. All Rights Reserved. Committed to Wildlife Conservation.</p>
+                <div class="fb-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Permit Guidelines</a>
+                    <a href="#">Terms & Cancellation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
