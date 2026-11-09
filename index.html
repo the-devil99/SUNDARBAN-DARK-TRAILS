@@ -19,7 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -85,11 +85,18 @@
                 <div class="qb-field">
                     <label for="qsPackage">Selected Tour</label>
                     <select id="qsPackage">
-                        <option value="Day River Cruise">1-Day Mangrove Cruise</option>
-                        <option value="Mangrove Eco-Escape" selected>2D/1N Mangrove Eco-Escape</option>
-                        <option value="Tiger Trail Expedition">3D/2N Tiger Trail Expedition</option>
-                        <option value="Luxury Houseboat Charter">2D/1N Luxury Private Houseboat</option>
-                        <option value="Photography & Birding Safari">4D/3N Birding & Photography</option>
+                        <option value="Day River Cruise">1-Day Mangrove Cruise (₹2,499)</option>
+                        <option value="Royal Anglers Fishing Cruise">1-Day Anglers Fishing Cruise (₹3,499)</option>
+                        <option value="Mangrove Eco-Escape" selected>2D/1N Mangrove Eco-Escape (₹4,899)</option>
+                        <option value="Wilderness Family Gateway">2D/1N Wilderness Family Gateway (₹4,299)</option>
+                        <option value="Honey Hunters & Folk Trail">2D/1N Honey Hunters & Folk Trail (₹4,999)</option>
+                        <option value="Tiger Trail Expedition">3D/2N Tiger Trail Expedition (₹7,850)</option>
+                        <option value="Kalash Island & Coastal Safari">3D/2N Kalash Island Coastal (₹8,999)</option>
+                        <option value="Luxury Houseboat Charter">2D/1N Luxury Houseboat Charter (₹22,500)</option>
+                        <option value="VIP Romantic Stilt Water Retreat">2D/1N VIP Romantic Stilt Retreat (₹18,500)
+                        </option>
+                        <option value="Photography & Birding Safari">4D/3N Birding & Photography Special (₹12,900)
+                        </option>
                     </select>
                 </div>
 
@@ -154,13 +161,102 @@
                 <span class="section-tag">Biodiversity Spotlight</span>
                 <h3>What You Can Spot Along the Tidal Creeks</h3>
             </div>
-            <div class="wildlife-cards">
-                <div class="wildlife-badge">🐅 Royal Bengal Tiger</div>
-                <div class="wildlife-badge">🐊 Estuarine Saltwater Crocodile</div>
-                <div class="wildlife-badge">🐬 Irrawaddy & Gangetic River Dolphin</div>
-                <div class="wildlife-badge">🦌 Spotted Chital Deer</div>
-                <div class="wildlife-badge">🦎 Asian Water Monitor Lizard</div>
-                <div class="wildlife-badge">🦅 8 Species of Delta Kingfishers</div>
+            <div class="wildlife-photo-grid">
+                <!-- 1. Tiger -->
+                <div class="wildlife-card">
+                    <div class="wildlife-media">
+                        <img src="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=800&q=80"
+                            alt="Royal Bengal Tiger in Sundarban creeks" loading="lazy" />
+                        <span class="wildlife-category">Apex Predator</span>
+                    </div>
+                    <div class="wildlife-info">
+                        <h4>Royal Bengal Tiger</h4>
+                        <span class="scientific-name">Panthera tigris tigris</span>
+                        <p>Over 100 wild tigers adapted to saltwater swimming across tidal creeks and hunting in the
+                            dense sundari groves.</p>
+                        <span class="sighting-prob">📍 Sudhanyakhali & Panchamukhani</span>
+                    </div>
+                </div>
+
+                <!-- 2. Crocodile -->
+                <div class="wildlife-card">
+                    <div class="wildlife-media">
+                        <img src="https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80"
+                            alt="Estuarine Saltwater Crocodile basking on mudbank" loading="lazy" />
+                        <span class="wildlife-category">Reptile Legend</span>
+                    </div>
+                    <div class="wildlife-info">
+                        <h4>Saltwater Crocodile</h4>
+                        <span class="scientific-name">Crocodylus porosus</span>
+                        <p>Giant estuarine crocodiles basking along exposed muddy riverbanks during low tide winter
+                            mornings.</p>
+                        <span class="sighting-prob">📍 Bhagabatpur & Kalash Island</span>
+                    </div>
+                </div>
+
+                <!-- 3. Dolphin -->
+                <div class="wildlife-card">
+                    <div class="wildlife-media">
+                        <img src="https://images.unsplash.com/photo-1570481662006-a3a1374699e8?auto=format&fit=crop&w=800&q=80"
+                            alt="Irrawaddy & Gangetic River Dolphin" loading="lazy" />
+                        <span class="wildlife-category">Aquatic Wonder</span>
+                    </div>
+                    <div class="wildlife-info">
+                        <h4>River Dolphins</h4>
+                        <span class="scientific-name">Orcaella brevirostris & Platanista</span>
+                        <p>Rare dual habitat for both Gangetic and blunt-snouted Irrawaddy dolphins surfacing at river
+                            confluences.</p>
+                        <span class="sighting-prob">📍 Namkhana & Burirdabri Channels</span>
+                    </div>
+                </div>
+
+                <!-- 4. Spotted Deer -->
+                <div class="wildlife-card">
+                    <div class="wildlife-media">
+                        <img src="https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=800&q=80"
+                            alt="Spotted Chital Deer grazing near mangroves" loading="lazy" />
+                        <span class="wildlife-category">Herbivore Prey</span>
+                    </div>
+                    <div class="wildlife-info">
+                        <h4>Spotted Chital Deer</h4>
+                        <span class="scientific-name">Axis axis</span>
+                        <p>Abundant herds foraging salt-tolerant leaves and sounding high-pitched alarm calls when
+                            tigers approach.</p>
+                        <span class="sighting-prob">📍 Dobanki & Sajnekhali Enclosures</span>
+                    </div>
+                </div>
+
+                <!-- 5. Monitor Lizard -->
+                <div class="wildlife-card">
+                    <div class="wildlife-media">
+                        <img src="https://images.unsplash.com/photo-1548247416-ec66f4900b2e?auto=format&fit=crop&w=800&q=80"
+                            alt="Asian Water Monitor Lizard" loading="lazy" />
+                        <span class="wildlife-category">Mudflat Scavenger</span>
+                    </div>
+                    <div class="wildlife-info">
+                        <h4>Water Monitor Lizard</h4>
+                        <span class="scientific-name">Varanus salvator</span>
+                        <p>Massive 6-to-8 foot lizards hunting mudskippers and crab colonies among exposed
+                            pneumatophores.</p>
+                        <span class="sighting-prob">📍 Pirkhali & Netidhopani Banks</span>
+                    </div>
+                </div>
+
+                <!-- 6. Kingfisher -->
+                <div class="wildlife-card">
+                    <div class="wildlife-media">
+                        <img src="https://images.unsplash.com/photo-1555169062-013468b47731?auto=format&fit=crop&w=800&q=80"
+                            alt="Delta Kingfisher species in Sundarbans" loading="lazy" />
+                        <span class="wildlife-category">Avian Jewel</span>
+                    </div>
+                    <div class="wildlife-info">
+                        <h4>8 Kingfisher Species</h4>
+                        <span class="scientific-name">Alcedo atthis & Pelargopsis</span>
+                        <p>Electric blues and fiery oranges of Brown-winged, Collared, Ruddy, and Pied Kingfishers
+                            darting across creeks.</p>
+                        <span class="sighting-prob">📍 Sajnekhali Bird Sanctuary</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -176,10 +272,10 @@
 
                 <!-- Category Tabs -->
                 <div class="package-tabs">
-                    <button class="tab-btn active" data-filter="all">All Packages (5)</button>
-                    <button class="tab-btn" data-filter="day">Day Safari</button>
-                    <button class="tab-btn" data-filter="overnight">Overnight Escapes</button>
-                    <button class="tab-btn" data-filter="premium">Luxury & Specialist</button>
+                    <button class="tab-btn active" data-filter="all">All Packages (10)</button>
+                    <button class="tab-btn" data-filter="day">Day Safaris (2)</button>
+                    <button class="tab-btn" data-filter="overnight">Overnight Escapes (5)</button>
+                    <button class="tab-btn" data-filter="premium">Luxury & Specialist (3)</button>
                 </div>
             </div>
 
@@ -187,6 +283,12 @@
 
                 <!-- Package 1: Day Safari -->
                 <article class="card package-card" data-category="day">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
+                            alt="Sundarban Day Cruise Boat Safari" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">🚤 Fast Boat Safari</span>
+                    </div>
                     <div class="card-pill">Popular Day Tour</div>
                     <div class="pkg-header">
                         <h3>Day River Cruise</h3>
@@ -210,6 +312,12 @@
 
                 <!-- Package 2: 2D/1N Eco Escape -->
                 <article class="card package-card featured" data-category="overnight">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+                            alt="Sundarban Mangrove Eco Resort" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">🌿 Eco-Resort Stay</span>
+                    </div>
                     <div class="card-pill popular">Top Bestseller</div>
                     <div class="pkg-header">
                         <h3>Mangrove Eco-Escape</h3>
@@ -234,6 +342,12 @@
 
                 <!-- Package 3: 3D/2N Tiger Trail -->
                 <article class="card package-card" data-category="overnight">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=800&q=80"
+                            alt="Deep Forest Tiger Trail Expedition" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">🐅 Deep Core Zone</span>
+                    </div>
                     <div class="card-pill">Deep Core Zone</div>
                     <div class="pkg-header">
                         <h3>Tiger Trail Expedition</h3>
@@ -258,6 +372,12 @@
 
                 <!-- Package 4 (NEW): Luxury Houseboat Charter -->
                 <article class="card package-card premium" data-category="premium">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&w=800&q=80"
+                            alt="Luxury Sundarban Private Houseboat" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">✨ Private Luxury Cruiser</span>
+                    </div>
                     <div class="card-pill luxury">VIP Experience</div>
                     <div class="pkg-header">
                         <h3>Luxury Houseboat Charter</h3>
@@ -282,6 +402,12 @@
 
                 <!-- Package 5 (NEW): Birding & Photography Safari -->
                 <article class="card package-card premium" data-category="premium">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1452570053594-1b985d6ea890?auto=format&fit=crop&w=800&q=80"
+                            alt="Birding and Wildlife Photography Safari" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">📸 Slow Drift Pro Gear</span>
+                    </div>
                     <div class="card-pill specialist">Wildlife Enthusiasts</div>
                     <div class="pkg-header">
                         <h3>Birding & Photography Special</h3>
@@ -304,6 +430,151 @@
                         data-price="14999">Select Photo Tour</button>
                 </article>
 
+                <!-- Package 6: Sunset & Honey Hunters Trail -->
+                <article class="card package-card" data-category="overnight">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1518457607834-6e8d80c183c5?auto=format&fit=crop&w=800&q=80"
+                            alt="Honey Hunters Trail in Sundarban" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">🍯 Cultural & Honey Trail</span>
+                    </div>
+                    <div class="card-pill">Folklore & Wilderness</div>
+                    <div class="pkg-header">
+                        <h3>Honey Hunters & Folk Trail</h3>
+                        <span class="duration">⏱ 2 Days / 1 Night (Cultural Camp)</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">4,999</span>
+                        <span class="unit">/ person</span>
+                    </div>
+                    <p class="pkg-desc">Meet traditional Mawali wild-honey collectors, attend village Bonbibi theatre
+                        (Pala Gaan), and cruise tranquil evening creeks.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Pure wild mangrove honey tasting & Mawali interaction</li>
+                        <li>✓ Evening folk theatre (Pala Gaan) & tribal Jhumur dance</li>
+                        <li>✓ Night mangrove boat cruise with bioluminescence spotting</li>
+                        <li>✓ Traditional eco-village cottage stay with farm-fresh meals</li>
+                    </ul>
+                    <button class="btn btn-outline select-pkg-btn" data-plan="Honey Hunters & Folk Trail"
+                        data-price="4999">Select Package</button>
+                </article>
+
+                <!-- Package 7: Weekend Wilderness Family Gateway -->
+                <article class="card package-card featured" data-category="overnight">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                            alt="Sundarban Family River Cruise" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">👨‍👩‍👧 Family & Group Favorite</span>
+                    </div>
+                    <div class="card-pill popular">Top Family Choice</div>
+                    <div class="pkg-header">
+                        <h3>Wilderness Family Gateway</h3>
+                        <span class="duration">⏱ 2 Days / 1 Night (Easy Pace)</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">4,299</span>
+                        <span class="unit">/ person</span>
+                    </div>
+                    <p class="pkg-desc">Relaxed, child-and-elder friendly exploration on covered double-decker safety
+                        boats with wildlife museums and deer feeding ponds.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Safe double-decker boat with life jackets & safety railings</li>
+                        <li>✓ Sajnekhali Crocodile & Olive Ridley Turtle interpretation centre</li>
+                        <li>✓ Sudhanyakhali sweetwater pond for spotting spotted deer herds</li>
+                        <li>✓ Evening campfire, pottery workshop & fresh Bengali buffet</li>
+                    </ul>
+                    <button class="btn btn-primary select-pkg-btn" data-plan="Wilderness Family Gateway"
+                        data-price="4299">Select Package</button>
+                </article>
+
+                <!-- Package 8: Deep Estuary & Kalash Island Coastal Safari -->
+                <article class="card package-card" data-category="overnight">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+                            alt="Kalash Island and Bonnie Camp Estuary" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">🌊 Coastal Frontier Expedition</span>
+                    </div>
+                    <div class="card-pill">Deep South Delta</div>
+                    <div class="pkg-header">
+                        <h3>Kalash Island & Coastal Safari</h3>
+                        <span class="duration">⏱ 3 Days / 2 Nights (Extreme South)</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">8,999</span>
+                        <span class="unit">/ person</span>
+                    </div>
+                    <p class="pkg-desc">Venture to the secluded southern rim where the mangrove delta dissolves into the
+                        open Bay of Bengal, exploring Kalash Island and Bonnie Camp.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Bonnie Camp 50ft watchtower & Kalash Island coastal delta</li>
+                        <li>✓ Olive Ridley sea turtle nesting beach & coastal dolphin pods</li>
+                        <li>✓ Extended navigation through Matla, Bidya & Raimangal rivers</li>
+                        <li>✓ AC riverfront eco-resort stay with all gourmet delta meals</li>
+                    </ul>
+                    <button class="btn btn-outline select-pkg-btn" data-plan="Kalash Island & Coastal Safari"
+                        data-price="8999">Select Package</button>
+                </article>
+
+                <!-- Package 9: Royal Anglers Tidal Fishing Cruise -->
+                <article class="card package-card" data-category="day">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+                            alt="Tidal Angling and Fishing in Sundarban" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">🎣 Tidal Angling Special</span>
+                    </div>
+                    <div class="card-pill">Sport Angling</div>
+                    <div class="pkg-header">
+                        <h3>Royal Anglers Fishing Cruise</h3>
+                        <span class="duration">⏱ 1 Full Day (05:30 AM – 06:30 PM)</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">3,499</span>
+                        <span class="unit">/ person</span>
+                    </div>
+                    <p class="pkg-desc">Early dawn cast with forest angling permits for giant estuarine Bhetki, mangrove
+                        Red Snapper, and catfish with master village boatmen.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Forest Department angling permits & basic fishing tackle</li>
+                        <li>✓ Secret brackish eddies, tidal creek inlets & bait assistance</li>
+                        <li>✓ Fresh onboard cooking of legal catch with mustard & green chillies</li>
+                        <li>✓ Intimate small-group limit (maximum 6 anglers per safari boat)</li>
+                    </ul>
+                    <button class="btn btn-outline select-pkg-btn" data-plan="Royal Anglers Fishing Cruise"
+                        data-price="3499">Select Package</button>
+                </article>
+
+                <!-- Package 10: VIP Romantic Stilt Water Retreat -->
+                <article class="card package-card premium" data-category="premium">
+                    <div class="pkg-thumb-wrapper">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+                            alt="Luxury Romantic Stilt Villa in Sundarban" class="pkg-thumb" loading="lazy" />
+                        <div class="pkg-thumb-overlay"></div>
+                        <span class="pkg-thumb-tag">🥂 Luxury Romantic Retreat</span>
+                    </div>
+                    <div class="card-pill luxury">Couples VIP</div>
+                    <div class="pkg-header">
+                        <h3>VIP Romantic Stilt Water Retreat</h3>
+                        <span class="duration">⏱ 2 Days / 1 Night (Private Couple)</span>
+                    </div>
+                    <div class="pkg-price">
+                        <span class="cur">₹</span><span class="val">18,500</span>
+                        <span class="unit">/ couple</span>
+                    </div>
+                    <p class="pkg-desc">Private riverfront luxury stilt villa with panoramic sundeck, candlelit cruise
+                        dinner under stars, and dedicated naturalist.</p>
+                    <ul class="pkg-perks">
+                        <li>✓ Private luxury river-facing stilt villa with outdoor sit-out deck</li>
+                        <li>✓ Sunset champagne river cruise on private executive launch</li>
+                        <li>✓ 5-course candlelit seafood feast with jumbo prawns & bhetki</li>
+                        <li>✓ Dedicated private naturalist & VIP priority watchtower permits</li>
+                    </ul>
+                    <button class="btn btn-outline select-pkg-btn" data-plan="VIP Romantic Stilt Water Retreat"
+                        data-price="18500">Select Package</button>
+                </article>
+
             </div>
         </div>
     </section>
@@ -319,35 +590,149 @@
             </div>
 
             <div class="dest-grid">
-                <div class="dest-box">
-                    <span class="dest-num">01</span>
-                    <h3>Dobanki Canopy Walk</h3>
-                    <p>A half-kilometer elevated wire-mesh walk suspended 20 feet above ground. Walk freely while deer
-                        and tigers roam below.</p>
+                <!-- 1. Dobanki -->
+                <div class="dest-box dest-card-enhanced">
+                    <div class="dest-media">
+                        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
+                            alt="Dobanki Canopy Walk" class="dest-img" loading="lazy" />
+                        <span class="dest-num">01</span>
+                        <span class="dest-tag">Canopy Trail</span>
+                    </div>
+                    <div class="dest-content">
+                        <h3>Dobanki Canopy Walk</h3>
+                        <p>A half-kilometer elevated wire-mesh walk suspended 20 feet above ground. Walk freely while
+                            deer and tigers roam below in complete safety.</p>
+                        <div class="dest-highlight">🌲 20 ft Canopy Walkway • Chital Deer Herds</div>
+                    </div>
                 </div>
-                <div class="dest-box">
-                    <span class="dest-num">02</span>
-                    <h3>Sudhanyakhali Watchtower</h3>
-                    <p>The highest recorded statistical probability for spotting the Royal Bengal Tiger drinking at the
-                        sweetwater pond.</p>
+
+                <!-- 2. Sudhanyakhali -->
+                <div class="dest-box dest-card-enhanced">
+                    <div class="dest-media">
+                        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80"
+                            alt="Sudhanyakhali Watchtower" class="dest-img" loading="lazy" />
+                        <span class="dest-num">02</span>
+                        <span class="dest-tag">Core Zone Hub</span>
+                    </div>
+                    <div class="dest-content">
+                        <h3>Sudhanyakhali Watchtower</h3>
+                        <p>The highest recorded statistical probability for spotting the Royal Bengal Tiger drinking at
+                            the sweetwater pond nestled within dense sundari cover.</p>
+                        <div class="dest-highlight">🐅 Sweetwater Pond • Wild Boar & Monitor Lizards</div>
+                    </div>
                 </div>
-                <div class="dest-box">
-                    <span class="dest-num">03</span>
-                    <h3>Netidhopani Historic Ruins</h3>
-                    <p>Centuries-old mythological Shiva temple ruins associated with the legend of Behula and Lakhindar
-                        deep in the core zone.</p>
+
+                <!-- 3. Netidhopani -->
+                <div class="dest-box dest-card-enhanced">
+                    <div class="dest-media">
+                        <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80"
+                            alt="Netidhopani Historic Ruins" class="dest-img" loading="lazy" />
+                        <span class="dest-num">03</span>
+                        <span class="dest-tag">Mythological Site</span>
+                    </div>
+                    <div class="dest-content">
+                        <h3>Netidhopani Historic Ruins</h3>
+                        <p>Centuries-old mythological Shiva temple ruins associated with the folklore of Behula and
+                            Lakhindar deep within the core tiger territory.</p>
+                        <div class="dest-highlight">🏛️ 400-Year Ancient Temple • Watchtower Vista</div>
+                    </div>
                 </div>
-                <div class="dest-box">
-                    <span class="dest-num">04</span>
-                    <h3>Bonnie Camp Estuary</h3>
-                    <p>The tallest watchtower in Sundarbans (50 ft). Overlooks vast tidal mudflats and the meeting point
-                        of open rivers.</p>
+
+                <!-- 4. Bonnie Camp -->
+                <div class="dest-box dest-card-enhanced">
+                    <div class="dest-media">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+                            alt="Bonnie Camp Estuary" class="dest-img" loading="lazy" />
+                        <span class="dest-num">04</span>
+                        <span class="dest-tag">Deep Bay Estuary</span>
+                    </div>
+                    <div class="dest-content">
+                        <h3>Bonnie Camp Estuary</h3>
+                        <p>The tallest watchtower in Sundarbans (50 ft). Overlooks vast tidal mudflats and the grand
+                            meeting point of open rivers entering the Bay of Bengal.</p>
+                        <div class="dest-highlight">🔭 50 ft Elevation • Expansive Bay Horizon</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Interactive Cost Estimator -->
+
+    <!-- Visual Chronicles & Guest Moments Gallery -->
+    <section class="section gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visual Expedition</span>
+                <h2 class="section-heading">Sundarban Safari Chronicles</h2>
+                <p class="section-sub">A photographic odyssey across misty delta dawn, secluded river crossings,
+                    authentic Bengali feasts, and emerald mangrove waterways.</p>
+            </div>
+
+            <div class="gallery-mosaic">
+                <!-- Large Feature: Mangrove Sunset -->
+                <div class="gallery-item col-8">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
+                        alt="Golden hour sunset across Sundarban delta" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Golden Hour at Matla Confluence</h4>
+                            <p>Evening silhouettes of heritage safari boats returning to the base camp</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stack 1: Tiger Crossing -->
+                <div class="gallery-item col-4">
+                    <img src="https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=800&q=80"
+                        alt="Royal Bengal Tiger walking mangrove edge" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Tiger on the Tidal Ridge</h4>
+                            <p>Captured from Sudhanyakhali channel at low tide</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Safari Boat Cruise -->
+                <div class="gallery-item col-4">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
+                        alt="Traditional wooden safari boat" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Luxury Houseboat Sundeck</h4>
+                            <p>Cruising smoothly through protected forest creeks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Mangrove Root Matrix -->
+                <div class="gallery-item col-4">
+                    <img src="https://images.unsplash.com/photo-1518457607834-6e8d80c183c5?auto=format&fit=crop&w=800&q=80"
+                        alt="Pneumatophore mangrove breathing roots" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Breathing Roots of Sundari Trees</h4>
+                            <p>The intricate tidal ecosystem of UNESCO Biosphere</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Canopy Bridge -->
+                <div class="gallery-item col-4">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
+                        alt="Dobanki canopy wire mesh walk" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Canopy Walkway at Dobanki</h4>
+                            <p>Suspended 20 ft above the jungle floor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="section calc-section" id="calculator">
         <div class="container">
             <div class="calc-wrapper">
@@ -367,10 +752,15 @@
                         <label for="calcPlan">Selected Expedition</label>
                         <select id="calcPlan">
                             <option value="2499">1-Day River Cruise (₹2,499/person)</option>
-                            <option value="5999" selected>2D/1N Mangrove Eco-Escape (₹5,999/person)</option>
-                            <option value="9499">3D/2N Tiger Trail Expedition (₹9,499/person)</option>
-                            <option value="16500">2D/1N Luxury Houseboat Charter (₹16,500/person)</option>
-                            <option value="14999">4D/3N Birding & Photography Special (₹14,999/person)</option>
+                            <option value="3499">1-Day Royal Anglers Fishing Cruise (₹3,499/person)</option>
+                            <option value="4299">2D/1N Wilderness Family Gateway (₹4,299/person)</option>
+                            <option value="4899" selected>2D/1N Mangrove Eco-Escape (₹4,899/person)</option>
+                            <option value="4999">2D/1N Honey Hunters & Folk Trail (₹4,999/person)</option>
+                            <option value="7850">3D/2N Tiger Trail Expedition (₹7,850/person)</option>
+                            <option value="8999">3D/2N Kalash Island Coastal Safari (₹8,999/person)</option>
+                            <option value="12900">4D/3N Birding & Photography Special (₹12,900/person)</option>
+                            <option value="18500">2D/1N VIP Romantic Stilt Water Retreat (₹18,500/couple)</option>
+                            <option value="22500">2D/1N Luxury Houseboat Charter (₹22,500/boat)</option>
                         </select>
                     </div>
 
@@ -547,11 +937,19 @@
                     <label for="bookPackage">Preferred Tour</label>
                     <select id="bookPackage">
                         <option value="Day River Cruise">1-Day River Cruise (₹2,499)</option>
-                        <option value="Mangrove Eco-Escape" selected>2D/1N Mangrove Eco-Escape (₹5,999)</option>
-                        <option value="Tiger Trail Expedition">3D/2N Tiger Trail Expedition (₹9,499)</option>
-                        <option value="Luxury Houseboat Charter">2D/1N Luxury Houseboat Charter (₹16,500)</option>
-                        <option value="Photography & Birding Safari">4D/3N Birding & Photography Special (₹14,999)
+                        <option value="Royal Anglers Fishing Cruise">1-Day Royal Anglers Fishing Cruise (₹3,499)
                         </option>
+                        <option value="Wilderness Family Gateway">2D/1N Wilderness Family Gateway (₹4,299)</option>
+                        <option value="Mangrove Eco-Escape" selected>2D/1N Mangrove Eco-Escape (₹4,899)</option>
+                        <option value="Honey Hunters & Folk Trail">2D/1N Honey Hunters & Folk Trail (₹4,999)</option>
+                        <option value="Tiger Trail Expedition">3D/2N Tiger Trail Expedition (₹7,850)</option>
+                        <option value="Kalash Island & Coastal Safari">3D/2N Kalash Island Coastal Safari (₹8,999)
+                        </option>
+                        <option value="Birding & Photography Special">4D/3N Birding & Photography Special (₹12,900)
+                        </option>
+                        <option value="VIP Romantic Stilt Water Retreat">2D/1N VIP Romantic Stilt Water Retreat
+                            (₹18,500)</option>
+                        <option value="Luxury Houseboat Charter">2D/1N Luxury Houseboat Charter (₹22,500)</option>
                     </select>
                 </div>
 
@@ -587,7 +985,7 @@
         <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
             <path
                 d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.04 19.83C10.61 19.83 9.22 19.46 8.01 18.77L7.5 18.45L4.5 19.5L5.55 16.5L5.23 15.99C4.54 14.78 4.17 13.39 4.17 11.96C4.17 7.72 7.8 4.09 12.04 4.09C14.02 4.09 15.91 4.81 17.31 6.21C18.71 7.61 19.43 9.5 19.43 11.48C19.43 15.72 15.8 19.35 11.56 19.35H12Z" />
-        <span>WhatsApp Desk</span>
+            <span>WhatsApp Desk</span>
     </a>
 
     <!-- Toast Notification -->
@@ -648,64 +1046,470 @@
             </div>
         </div>
     </footer>
-      <!-- ================= AI Chatbot Widget ================= -->
-  <div class="chatbot-wrapper" id="chatbotWrapper">
-    <!-- Chatbot Toggle Button -->
-    <button class="chatbot-trigger" id="chatbotTrigger" aria-label="Open AI Tour Assistant">
-      <span class="chat-icon-open">
-        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-        </svg>
-      </span>
-      <span class="chat-icon-close">&times;</span>
-      <span class="chat-trigger-pulse"></span>
-    </button>
-
-    <!-- Chatbot Window -->
-    <div class="chatbot-window" id="chatbotWindow" aria-hidden="true">
-      <!-- Header -->
-      <div class="chat-header">
-        <div class="chat-avatar">🐅</div>
-        <div class="chat-header-info">
-          <div class="chat-title-row">
-            <h4>DeltaBot AI</h4>
-            <span class="online-indicator"></span>
-          </div>
-          <p class="chat-subtitle">Sundarban Safari Guide & Assistant</p>
-        </div>
-        <button class="chat-minimize" id="chatMinimize" aria-label="Minimize Chat">&minus;</button>
-      </div>
-
-      <!-- Quick Suggestion Chips -->
-      <div class="chat-chips" id="chatChips">
-        <button class="chip-btn" data-query="Best time to visit?">🗓️ Best Season?</button>
-        <button class="chip-btn" data-query="What are the tiger sighting chances?">🐅 Tiger Chances?</button>
-        <button class="chip-btn" data-query="Do we need forest permits?">🛡️ Forest Permits?</button>
-        <button class="chip-btn" data-query="Tell me about Luxury Houseboat">🛥️ Luxury Houseboat?</button>
-        <button class="chip-btn" data-query="What food is served?">🍲 Food on Boat?</button>
-      </div>
-
-      <!-- Messages Stream -->
-      <div class="chat-messages" id="chatMessages">
-        <div class="chat-bubble bot-bubble">
-          <p>Namaskar! 🙏 I'm <strong>DeltaBot</strong>, your Sundarban AI naturalist. Ask me anything about tour packages, tiger sightings, forest permits, food, or Kolkata transfers!</p>
-          <span class="msg-time">Just now</span>
-        </div>
-      </div>
-
-      <!-- Input Area -->
-      <form class="chat-input-bar" id="chatForm">
-        <input type="text" id="chatInput" placeholder="Ask about safaris, permits, prices..." autocomplete="off" required />
-        <button type="submit" class="chat-send-btn" aria-label="Send message">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="22" y1="2" x2="11" y2="13"></line>
-            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-          </svg>
+    <!-- ================= AI Chatbot Widget ================= -->
+    <div class="chatbot-wrapper" id="chatbotWrapper">
+        <!-- Chatbot Toggle Button -->
+        <button class="chatbot-trigger" id="chatbotTrigger" aria-label="Open AI Tour Naturalist">
+            <span class="chat-icon-open">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                </svg>
+            </span>
+            <span class="chat-icon-close">&times;</span>
+            <span class="chat-trigger-pulse"></span>
+            <span class="chat-trigger-badge">TourMaker</span>
         </button>
-      </form>
-    </div>
-  </div>
 
+        <!-- Chatbot Window -->
+        <div class="chatbot-window" id="chatbotWindow" aria-hidden="true">
+            <!-- Header -->
+            <div class="chat-header">
+                <div class="chat-avatar-wrapper">
+                    <div class="chat-avatar" id="agentAvatar">🐅</div>
+                    <span class="status-dot" id="agentOnlineDot" title="Agent Online & Autonomous"></span>
+                </div>
+                <div class="chat-header-info">
+                    <div class="chat-title-row">
+                        <h4 id="agentDisplayName">TourMaker Naturalist</h4>
+                        <span class="agent-chip" id="agentAutonomyBadge">⚡ AUTONOMOUS</span>
+                    </div>
+                    <p class="chat-subtitle" id="agentDisplaySubtitle">Capt. Subhash • Lead Tidal Master & Concierge</p>
+                </div>
+                <div class="chat-header-actions">
+                    <button class="chat-tool-btn" id="chatVoiceToggle" title="Toggle Voice Conversation (Speech)"
+                        aria-label="Toggle Voice">🎙️</button>
+                    <button class="chat-tool-btn" id="chatConfigBtn" title="Agent Configuration Center & Settings"
+                        aria-label="Configure Agent">⚙️</button>
+                    <button class="chat-tool-btn" id="chatResetBtn" title="Reset Session Memory"
+                        aria-label="Reset Chat">🔄</button>
+                    <button class="chat-tool-btn" id="chatExpandBtn" title="Expand / Popout Chat"
+                        aria-label="Expand Chat">⛶</button>
+                    <button class="chat-tool-btn" id="chatMinimize" title="Minimize Chat"
+                        aria-label="Minimize Chat">&minus;</button>
+                </div>
+            </div>
+
+            <!-- Agent Autonomous Action Status Banner -->
+            <div class="chat-agent-banner">
+                <span class="agent-banner-pill" id="agentBannerPill"><span class="pulse-green"></span> <span
+                        id="agentBannerText">Agentic Tools Active</span></span>
+                <span id="agentTideStatus">🌊 Mudflat Sighting Window: Active</span>
+            </div>
+
+            <!-- Dynamic Quick Prompt Suggestion Chips -->
+            <div class="chat-chips" id="chatChips">
+                <button class="chip-btn" data-query="Calculate a live quote for 4 guests on 2D1N">💰 Live Quote for
+                    4</button>
+                <button class="chip-btn" data-query="What is the secret to spotting Royal Bengal Tigers?">🐅 Tiger
+                    Sighting Secret</button>
+                <button class="chip-btn" data-query="Show me all luxury stilt and private houseboat safaris">🛥️ Filter
+                    Luxury Packages</button>
+                <button class="chip-btn" data-query="Check Sundarban tidal radar and best month to visit">🌊 Lunar &
+                    Tidal Radar</button>
+                <button class="chip-btn" data-query="Build me a custom 3-day safari expedition itinerary">📅 Build
+                    Custom Itinerary</button>
+                <button class="chip-btn" data-query="What authentic Bengali food is served on board?">🍲 Food & Dining
+                    Feast</button>
+            </div>
+
+            <!-- Messages Stream -->
+            <div class="chat-messages" id="chatMessages">
+                <!-- Welcome Bubble rendered dynamically via JS based on configured persona -->
+            </div>
+
+            <!-- Listening Voice Wave Bar -->
+            <div class="voice-wave-bar" id="voiceWaveBar">
+                <div style="display:flex; align-items:center; gap:8px;">
+                    <div class="wave-animation">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <span id="voiceStatusText">Listening to your voice... Speak now</span>
+                </div>
+                <button type="button" id="voiceCancelBtn"
+                    style="background:none; border:none; color:#ffb4a2; cursor:pointer; font-size:12px;">Cancel</button>
+            </div>
+
+            <!-- Input Area -->
+            <form class="chat-input-bar" id="chatForm">
+                <button type="button" class="chat-mic-btn" id="chatMicBtn" title="Speak to TourMaker (Voice Input)"
+                    aria-label="Microphone Voice Input">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                        <line x1="12" y1="19" x2="12" y2="23" />
+                        <line x1="8" y1="23" x2="16" y2="23" />
+                    </svg>
+                </button>
+                <input type="text" id="chatInput"
+                    placeholder="Ask Capt. Subhash (e.g. quote for 4, best tides, filter luxury)..." autocomplete="off"
+                    required />
+                <button type="submit" class="chat-send-btn" id="chatSendBtn" aria-label="Send message">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                        stroke-width="2.5">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- =========================================================
+         AGENT CONFIGURATION & CONTROL CENTER (MODAL)
+         ========================================================= -->
+    <div class="agent-config-modal" id="agentConfigModal" aria-hidden="true">
+        <div class="config-panel-card">
+            <!-- Modal Header -->
+            <div class="config-header">
+                <div class="config-title-group">
+                    <h3>⚙️ TourMaker AI Control Center</h3>
+                    <p>Configure autonomous persona, brain model, tool permissions, memory state, and voice synthesis
+                    </p>
+                </div>
+                <button class="config-close-btn" id="configCloseBtn" aria-label="Close Configuration">&times;</button>
+            </div>
+
+            <!-- Tabs Navigation -->
+            <div class="config-tabs-nav">
+                <button class="config-tab-btn active" data-tab="tabPersona">🎭 Persona & Tone</button>
+                <button class="config-tab-btn" data-tab="tabBrain">🤖 AI Brain & Gateway</button>
+                <button class="config-tab-btn" data-tab="tabMemory">🧠 Memory Matrix</button>
+                <button class="config-tab-btn" data-tab="tabTools">🛠️ Agentic Tools</button>
+                <button class="config-tab-btn" data-tab="tabVoice">🎙️ Voice Studio</button>
+            </div>
+
+            <!-- Tab 1: Persona & Tone -->
+            <div class="config-tab-content active" id="tabPersona">
+                <div class="config-form-section">
+                    <div class="config-section-title">Select Active Agent Persona</div>
+                    <div class="persona-grid" id="personaGrid">
+                        <!-- Subhash -->
+                        <div class="persona-card selected" data-persona="subhash">
+                            <div class="persona-card-header">
+                                <span class="persona-avatar">🐅</span>
+                                <div>
+                                    <h5>Capt. Subhashish 'Babu'</h5>
+                                    <span class="persona-role-tag">Lead Boat Master & Naturalist</span>
+                                </div>
+                            </div>
+                            <p>18 years navigating mangrove tides. Warm, salt-of-the-earth, focuses on boat safety,
+                                low-tide tiger mudflats, and Bengali culinary lore.</p>
+                        </div>
+                        <!-- Dr. Aranya Sen -->
+                        <div class="persona-card" data-persona="dr_sen">
+                            <div class="persona-card-header">
+                                <span class="persona-avatar">🔬</span>
+                                <div>
+                                    <h5>Dr. Aranya Sen</h5>
+                                    <span class="persona-role-tag">Senior Wildlife Biologist</span>
+                                </div>
+                            </div>
+                            <p>Scientific, analytical, pugmark trajectory specialist. Delivers avian species
+                                identification, camera-trap statistics, and mangrove ecology insights.</p>
+                        </div>
+                        <!-- Maya Roy -->
+                        <div class="persona-card" data-persona="maya_roy">
+                            <div class="persona-card-header">
+                                <span class="persona-avatar">🥂</span>
+                                <div>
+                                    <h5>Maya Roy</h5>
+                                    <span class="persona-role-tag">VIP Luxury Concierge</span>
+                                </div>
+                            </div>
+                            <p>Refined, exclusive concierge. Tailors private stilt water villas, private yacht charters,
+                                champagne sundowners, and bespoke gourmet dining.</p>
+                        </div>
+                        <!-- Custom Persona -->
+                        <div class="persona-card" data-persona="custom">
+                            <div class="persona-card-header">
+                                <span class="persona-avatar">⚡</span>
+                                <div>
+                                    <h5>Custom Agent Persona</h5>
+                                    <span class="persona-role-tag">User-Defined System Prompt</span>
+                                </div>
+                            </div>
+                            <p>Define your own autonomous persona name, background, tone instructions, and custom safari
+                                response style.</p>
+                        </div>
+                    </div>
+
+                    <!-- Custom Persona Fields (Visible when Custom is picked) -->
+                    <div id="customPersonaGroup"
+                        style="display:none; background:rgba(8,28,21,0.6); padding:14px; border-radius:10px; margin-bottom:16px; border:1px solid rgba(116,198,157,0.3);">
+                        <div class="config-control-group">
+                            <label>Custom Agent Name</label>
+                            <input type="text" id="cfgCustomName" placeholder="e.g., Sundarban Ranger Debabrata"
+                                value="Ranger Debabrata" />
+                        </div>
+                        <div class="config-control-group">
+                            <label>Custom System Instructions & Directive</label>
+                            <textarea id="cfgCustomPrompt" rows="3"
+                                placeholder="Enter system prompt for the agent...">You are an expert Sundarban tactical safari guide. Provide concise, highly accurate details on wildlife sighting probability, tidal navigation, and pricing.</textarea>
+                        </div>
+                    </div>
+
+                    <!-- Autonomy & Thinking Toggles -->
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>⚡ Autonomous Action Execution</h6>
+                            <p>Allow TourMaker to execute live page actions (scroll, spotlight cards, filter catalog,
+                                launch booking modal)</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="cfgAutonomyToggle" checked />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>🧠 Show Agent Thought Process (Chain-of-Thought)</h6>
+                            <p>Display live multi-step reasoning traces and tool invocations before replying</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="cfgThinkingToggle" checked />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="config-control-group" style="margin-top:14px;">
+                        <label>Creativity & Temperature: <span class="val-badge" id="tempValBadge">0.7</span></label>
+                        <input type="range" class="config-slider" id="cfgTemperature" min="0.1" max="1.0" step="0.05"
+                            value="0.7" />
+                    </div>
+
+                    <div class="config-control-group">
+                        <label>Storytelling & Response Depth</label>
+                        <select id="cfgResponseDepth">
+                            <option value="balanced" selected>Balanced Naturalist (Recommended - engaging & actionable)
+                            </option>
+                            <option value="concise">Concise Tactical (Bullet points & rapid booking answers)</option>
+                            <option value="deep">Deep Mangrove Storyteller (Rich delta lore & wildlife ecology)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 2: AI Brain & Gateway (BYOK) -->
+            <div class="config-tab-content" id="tabBrain">
+                <div class="config-form-section">
+                    <div class="config-section-title">AI Engine Architecture</div>
+                    <div class="config-control-group">
+                        <label>Active Engine</label>
+                        <select id="cfgEngineSelect">
+                            <option value="local" selected>⚡ Built-in TourMaker AI Engine (Offline, Instant,
+                                Zero API Key)</option>
+                            <option value="openai">🌐 OpenAI GPT Gateway (BYOK: GPT-4o / GPT-4o-mini)</option>
+                            <option value="claude">🌐 Anthropic Claude Gateway (BYOK: Claude 3.5 Sonnet)</option>
+                            <option value="groq">🌐 Groq Cloud High-Speed (BYOK: Llama 3.3 70B Versatile)</option>
+                            <option value="openrouter">🌐 OpenRouter Universal Gateway (BYOK)</option>
+                        </select>
+                    </div>
+
+                    <!-- Cloud Gateway Inputs -->
+                    <div id="cloudGatewayFields"
+                        style="display:none; background:rgba(8,28,21,0.7); padding:16px; border-radius:12px; border:1px solid rgba(116,198,157,0.3); margin-top:14px;">
+                        <div class="config-control-group">
+                            <label>API Key (Stored locally in your browser)</label>
+                            <input type="password" id="cfgApiKey" placeholder="sk-..." autocomplete="off" />
+                        </div>
+                        <div class="config-control-group">
+                            <label>Model Identifier</label>
+                            <input type="text" id="cfgModelName" placeholder="e.g. gpt-4o-mini" value="gpt-4o-mini" />
+                        </div>
+                        <div style="display:flex; align-items:center; justify-content:space-between; margin-top:8px;">
+                            <button type="button" class="card-action-btn secondary" id="btnTestApi" style="flex:none;">⚡
+                                Test Connection / Ping</button>
+                            <span id="apiPingStatus" style="font-size:0.78rem; color:#b7e4c7;">Status: Ready for
+                                test</span>
+                        </div>
+                    </div>
+
+                    <div
+                        style="margin-top:16px; font-size:0.78rem; color:#b7e4c7; line-height:1.45; background:rgba(18,44,34,0.4); padding:12px; border-radius:8px;">
+                        💡 <strong>Zero-Setup Notice:</strong> The built-in engine includes the complete Sundarban tidal
+                        matrix, all 10 package itineraries, real-time group pricing logic, and autonomous DOM actions.
+                        Cloud API Keys are optional for advanced custom LLM experimentation.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 3: Memory Matrix -->
+            <div class="config-tab-content" id="tabMemory">
+                <div class="config-form-section">
+                    <div class="config-section-title">Live Guest Context Matrix</div>
+                    <p style="font-size:0.78rem; color:#b7e4c7; margin-top:-6px; margin-bottom:12px;">This data
+                        represents what TourMaker currently knows and remembers about your safari plans in this session:
+                    </p>
+
+                    <div class="memory-chips-grid" id="memoryStateGrid">
+                        <!-- Populated by JS -->
+                    </div>
+
+                    <div class="config-section-title" style="margin-top:18px;">Inject / Update Guest Profile</div>
+                    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+                        <div class="config-control-group">
+                            <label>Travelers (Pax)</label>
+                            <input type="number" id="cfgInjectPax" min="1" max="50" placeholder="e.g. 4" />
+                        </div>
+                        <div class="config-control-group">
+                            <label>Target Month / Dates</label>
+                            <input type="text" id="cfgInjectDates" placeholder="e.g. December Winter Tide" />
+                        </div>
+                    </div>
+                    <div style="display:flex; gap:8px; margin-top:8px; flex-wrap:wrap;">
+                        <button type="button" class="card-action-btn" id="btnInjectContext" style="flex:1;">Save
+                            Context</button>
+                        <button type="button" class="card-action-btn secondary" id="btnExportItinerary"
+                            style="flex:1;">📥 Export Safari Dossier (.txt)</button>
+                        <button type="button" class="card-action-btn secondary" id="btnResetMemory"
+                            style="flex:1; border-color:#e63946; color:#ffb4a2;">🗑️ Clear Memory</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 4: Agentic Tools -->
+            <div class="config-tab-content" id="tabTools">
+                <div class="config-form-section">
+                    <div class="config-section-title">Autonomous Webpage Tools & Permissions</div>
+                    <p style="font-size:0.78rem; color:#b7e4c7; margin-top:-6px; margin-bottom:14px;">Toggle which
+                        autonomous tools TourMaker is permitted to execute on your webpage:</p>
+
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>🧭 `tool_page_navigator`</h6>
+                            <p>Autonomously scrolls and applies glowing spotlights to webpage sections (Packages,
+                                Reviews, Calculator, Gallery, FAQ)</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="toolPermNav" checked />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>🔍 `tool_catalog_filter`</h6>
+                            <p>Live filters the 10 package cards on the webpage based on user's theme, duration, and
+                                budget</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="toolPermFilter" checked />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>💰 `tool_live_quoter`</h6>
+                            <p>Computes instant group rates, seasonal discounts, and renders interactive quote cards in
+                                the chat</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="toolPermQuote" checked />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>🚀 `tool_booking_dispatch`</h6>
+                            <p>Autofills guest information and triggers the reservation modal with zero friction</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="toolPermBook" checked />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>🌊 `tool_tide_weather_radar`</h6>
+                            <p>Computes lunar phase (Amavasya/Purnima), tide levels, and watchtower sighting
+                                probabilities</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="toolPermTide" checked />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>📅 `tool_itinerary_builder`</h6>
+                            <p>Generates tailored day-by-day expedition plans with in-browser downloadable safari
+                                briefings</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="toolPermItinerary" checked />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 5: Voice Studio -->
+            <div class="config-tab-content" id="tabVoice">
+                <div class="config-form-section">
+                    <div class="config-section-title">Two-Way Voice Conversation Settings</div>
+
+                    <div class="config-switch-row">
+                        <div class="switch-info">
+                            <h6>🔊 Auto-Read Responses (Speech Synthesis)</h6>
+                            <p>Automatically read out TourMaker answers using the selected voice</p>
+                        </div>
+                        <label class="switch-toggle">
+                            <input type="checkbox" id="cfgAutoSpeak" />
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="config-control-group">
+                        <label>Speech Recognition (STT) Input Language</label>
+                        <select id="cfgSttLang">
+                            <option value="en-IN" selected>English (India) - en-IN</option>
+                            <option value="en-US">English (US) - en-US</option>
+                            <option value="bn-IN">Bengali (India) - bn-IN (বাংলা)</option>
+                            <option value="hi-IN">Hindi (India) - hi-IN (हिन्दी)</option>
+                        </select>
+                    </div>
+
+                    <div class="config-control-group">
+                        <label>Synthesizer Voice (Browser TTS)</label>
+                        <select id="cfgVoiceSelect">
+                            <option value="">Default System Naturalist Voice</option>
+                        </select>
+                    </div>
+
+                    <div class="config-control-group">
+                        <label>Voice Speech Rate: <span class="val-badge" id="rateValBadge">1.0x</span></label>
+                        <input type="range" class="config-slider" id="cfgVoiceRate" min="0.7" max="1.4" step="0.05"
+                            value="1.0" />
+                    </div>
+
+                    <div class="config-control-group">
+                        <label>Voice Pitch: <span class="val-badge" id="pitchValBadge">1.0</span></label>
+                        <input type="range" class="config-slider" id="cfgVoicePitch" min="0.7" max="1.3" step="0.05"
+                            value="1.0" />
+                    </div>
+
+                    <div style="margin-top:10px;">
+                        <button type="button" class="card-action-btn secondary" id="btnTestVoice">🔊 Test Voice
+                            Synthesis Sample</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="config-footer">
+                <button type="button" class="config-btn-reset" id="btnResetConfig">↺ Reset to Defaults</button>
+                <div style="display:flex; gap:10px;">
+                    <button type="button" class="config-btn-save" id="btnSaveConfig">✓ Save & Apply Settings</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
